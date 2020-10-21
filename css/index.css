@@ -1,0 +1,89 @@
+.navbar{
+    float: right;
+
+}
+
+.menu{
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 30px;
+    color:white;
+    background-color:#9A9A9A;
+    padding: 15px;
+    margin: 15px;
+}
+.menu:hover{
+    color:blue;
+    
+}
+
+
+h1{
+    font-family: Roboto;
+    font-size: 75px;
+}
+.hero{
+    width: 80%;
+    margin: auto;
+}
+.left{
+    width:50%;
+    float:left;
+    text-align: center;
+}
+.right{
+    width:50%;
+    float:left;
+    
+
+}
+.heroimage{
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+h2{
+    font-family: Roboto;
+    font-size: 70px;
+}
+.HEADSHOT1{
+    WIDTH: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "leftgrid rightgrid";
+    width: 80%;
+    margin: auto;
+
+}
+.leftgrid{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text text" "project1 project2";
+    grid-area: leftgrid; 
+    }
+ .rightgrid{
+     grid-area: rightgrid;
+
+}   
+ .project{
+     background-color:gray;
+     
+     margin: 5%;
+     grid-area: project;
+}
+ .leftgrid h3{
+     width: 100%;
+     font-family: Roboto;
+     font-size: 40px;
+     grid-area: text;
+}
+.project1{
+    grid-area: project1;
+}
+.project2{
+    grid-area: project2;
+}
